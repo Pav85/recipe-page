@@ -27,7 +27,7 @@ html {
 }
 
 .body {
-  background-color: hsl(30, 54%, 90%); /* Eggshell */
+  background-color: var(--eggshell);
 }
 
 .container {
@@ -50,8 +50,7 @@ html {
 }
 
 h1 {
-  /* color: hsl(24, 5%, 18%); */
-  color: hsl(30, 18%, 87%);
+  color: var(--dark-charcoal);
   font-family: "Young Serif", serif;
   font-weight: 400;
   font-style: normal;
